@@ -3,7 +3,7 @@
 
 dist
 build
-
+config
 .env
 cert
 certs
