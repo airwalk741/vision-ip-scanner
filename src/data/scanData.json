@@ -1,0 +1,80 @@
+[
+  {
+    "ipAddress": "ipAddress",
+    "macAddress": "00:26:e6:0d:e6:91",
+    "ipType": "ipType",
+    "streamPort": "streamPort",
+    "httpPort": "httpPort",
+    "upgradePort": "upgradePort",
+    "serverName": "serverName",
+    "model": "model",
+    "firmwareVersion": "firmwareVersion",
+    "resolutions": "resolutions",
+    "videoFormat": "videoFormat"
+  },
+  {
+    "ipAddress": "192.168.0.37",
+    "macAddress": "00:26:e6:0d:e6:92",
+    "ipType": "DHCP",
+    "streamPort": 2700,
+    "httpPort": 80,
+    "upgradePort": 9300,
+    "serverName": "VNN62C54AR",
+    "model": "VNN62C54AR",
+    "firmwareVersion": "1.0.1.8 20200122",
+    "resolutions": "fhd,sxga,hd,4cf",
+    "videoFormat": "NTSC"
+  },
+  {
+    "ipAddress": "192.168.0.37",
+    "macAddress": "00:26:e6:0d:e6:93",
+    "ipType": "DHCP",
+    "streamPort": 2700,
+    "httpPort": 80,
+    "upgradePort": 9300,
+    "serverName": "VNN62C54AR",
+    "model": "VNN62C54AR",
+    "firmwareVersion": "1.0.1.8 20200122",
+    "resolutions": "fhd,sxga,hd,4cf",
+    "videoFormat": "NTSC"
+  },
+  {
+    "ipAddress": "192.168.0.37",
+    "macAddress": "00:26:e6:0d:e6:94",
+    "ipType": "DHCP",
+    "streamPort": 2700,
+    "httpPort": 80,
+    "upgradePort": 9300,
+    "serverName": "VNN62C54AR",
+    "model": "VNN62C54AR",
+    "firmwareVersion": "1.0.1.8 20200122",
+    "resolutions": "fhd,sxga,hd,4cf",
+    "videoFormat": "NTSC"
+  },
+  {
+    "ipAddress": "192.168.0.37",
+    "macAddress": "00:26:e6:0d:e6:95",
+    "ipType": "DHCP",
+    "streamPort": 2700,
+    "httpPort": 80,
+    "upgradePort": 9300,
+    "serverName": "VNN62C54AR",
+    "model": "VNN62C54AR",
+    "firmwareVersion": "1.0.1.8 20200122",
+    "resolutions": "fhd,sxga,hd,4cf",
+    "videoFormat": "NTSC"
+  },
+  {
+    "ipAddress": "192.168.0.37",
+    "macAddress": "00:26:e6:0d:e6:96",
+    "ipType": "DHCP",
+    "streamPort": 2700,
+    "httpPort": 80,
+    "upgradePort": 9300,
+    "serverName": "VNN62C54AR",
+    "model": "VNN62C54AR",
+    "firmwareVersion": "1.0.1.8 20200122",
+    "resolutions": "fhd,sxga,hd,4cf",
+    "videoFormat": "NTSC"
+  }
+]

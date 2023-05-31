@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vision IP Scanner</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/assets/bootstrap/bootstrap.min.css"
+    />
+    <link rel="shortcut icon" href="/assets/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/global.css" />
+  </head>
+  <body>
+    <div class="main mb-5">
+      <nav class="">
+        <h2 class="text-center">Vision IP Scanner</h2>
+        <input type="file" class="img-test" />
+      </nav>
+      <div class="container">
+        <div class="d-flex justify-content-end mb-3">
+          <button id="scan-btn">Scan</button>
+        </div>
+        <div class="row">
+          <div class="col-4 scan-data-list">
+            <div class="card">
+              <div class="card-body">
+                <table
+                  class="scan-data-list-table table text-center table-hover"
+                >
+                  <thead>
+                    <tr>
+                      <th scope="col">IP Address</th>
+                      <th scope="col">MAC</th>
+                    </tr>
+                  </thead>
+
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="card">
+              <div class="card-body detail-container">
+                <div class="d-flex scan-detail">
+                  <ul>
+                    <li class="fw-bold">IP Address</li>
+                    <li class="fw-bold">MAC Address</li>
+                  </ul>
+                  <ul class="scan-detail-ul-data">
+                    <li id="ipAddress"></li>
+                    <li id="macAddress"></li>
+                  </ul>
+                </div>
+                <table class="table text-center table-bordered">
+                  <tbody>
+                    <tr>
+                      <th>IP Type</th>
+                      <td id="ipType"></td>
+                      <th>Stream Port</th>
+                      <td id="streamPort"></td>
+                      <th>HTTP Port</th>
+                      <td id="httpPort"></td>
+                    </tr>
+                    <tr>
+                      <th>Upgrade Port</th>
+                      <td id="upgradePort"></td>
+                      <th>Server Name</th>
+                      <td id="serverName"></td>
+                      <th>Model</th>
+                      <td id="model"></td>
+                    </tr>
+                    <tr>
+                      <th>Firmware Version</th>
+                      <td id="firmwareVersion"></td>
+                      <th>Resolutions</th>
+                      <td id="resolutions"></td>
+                      <th>Video format</th>
+                      <td id="videoFormat"></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <canvas id="camera"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "socket.io-client": "/assets/socket_cdn/socket.io.min.js"
+        }
+      }
+    </script>
+
+    <script src="/assets/js/main.js" type="module"></script>
+    <script src="/assets/js/tensorflow.js" type="module"></script>
+    <script src="/assets/js/helper/api.js" type="module"></script>
+    <script src="/assets/js/main.value.js" type="module"></script>
+    <script src="/assets/cdn/lodash.js" type="module"></script>
+    <script src="/assets/bootstrap/bootstrap.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
+  </body>
+</html>
